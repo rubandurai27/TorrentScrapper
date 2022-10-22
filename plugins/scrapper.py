@@ -56,7 +56,7 @@ async def link_regex(c,m):
         await txt.delete()
 
 
-@Client.on_message(filters.command('listmv'))
+@Client.on_message(filters.command('tmv'))
 async def listmv(c, m):
     querys = ""
     texts = ""
@@ -64,7 +64,7 @@ async def listmv(c, m):
     for queryss in m.command[1:length]:
         querys += f"{queryss} "
     if querys == "":
-        await m.reply(f'`/listmv [query]`', quote=True)
+        await m.reply(f'`/tmv [query]`', quote=True)
     elif querys != "":
         link = f"https://www.1tamilmv.com/index.php?/search/&q={querys}&search_and_or=and&search_in=titles&sortby=relevancy"
         txt = await m.reply_text(f"Searching for: {querys} 🔍")
@@ -99,7 +99,7 @@ async def lists(c, m):
     for queryss in m.command[1:length]:
         querys += f"{queryss} "
     if querys == "":
-        await m.reply(f'`/listbl [query]`', quote=True)
+        await m.reply(f'`/tbl [query]`', quote=True)
     elif querys != "":
         link = f"https://www.tamilblasters.com/index.php?/search/&q={querys}&search_and_or=and&search_in=titles&sortby=relevancy"
         txt = await m.reply_text(f"Searching for: {querys} 🔍")
@@ -126,7 +126,7 @@ async def lists(c, m):
         await txt.delete()
 
 
-@Client.on_message(filters.command('latest'))
+@Client.on_message(filters.command('webshot'))
 async def ss(bot, message):
     # Getting ss of tamilmv
     txt = await bot.send_message(message.chat.id, "Getting screenshot of latest movies of 1TamilMv.com")
