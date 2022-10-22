@@ -20,11 +20,11 @@ Send any 1tamilmv.com or tamilblasters.com link to scrap torrents
 
 ##### Commands:
 
-* /listmv [query] - to search movies in TamilMV
+* /tmv [query] - to search movies in TamilMV
 
-* /listbl [query] - to search movies in Tamilblasters
+* /tbl [query] - to search movies in Tamilblasters
 
 * /post [tamilmv link] - makes a post of a given link
 
-* /latest - to get screenshot of latest movies in TamilMV and Tamilblasters
+* /webshot - to get screenshot of latest movies in TamilMV and Tamilblasters
 
