@@ -9,7 +9,7 @@
       "T2links"
    ],
    "website":"https://t.me/t2links",
-   "repository":"https://github.com/kevinnadar22/TorrentScrapper",
+   "repository":"https://github.com/Rubandurai27/TorrentScrapper",
    "success_url":"https://telegram.dog/t2links",
    "env":{
       "TG_BOT_TOKEN":{
